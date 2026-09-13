@@ -1,0 +1,30 @@
+{
+  "name": "psv-sizing-calculator",
+  "version": "0.1.0",
+  "description": "PSV Sizing Calculator for Hydrocarbon Plants - Olefin Crack Gas Systems",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "test": "jest --coverage",
+    "dev": "nodemon backend/server.js"
+  },
+  "keywords": [
+    "PSV",
+    "pressure-safety-valve",
+    "hydrocarbon",
+    "olefin",
+    "sizing",
+    "calculator"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.5.0"
+  }
+}
